@@ -3768,6 +3768,7 @@ input[type="button"].btn-block {
       color: #fff; }
 
 .card {
+	margin-top: 6px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3781,7 +3782,7 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem; }
+  border-radius: 2rem; }
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
@@ -3796,7 +3797,8 @@ input[type="button"].btn-block {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1.25rem; }
+  padding: 1.25rem;
+float:right;  }
 
 .card-title {
   margin-bottom: 0.75rem; }
@@ -3854,9 +3856,10 @@ input[type="button"].btn-block {
   border-radius: calc(0.25rem - 1px); }
 
 .card-img-top {
-  width: 100%;
+  width: 30%;
   border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px); }
+  border-top-right-radius: calc(0.25rem - 1px); 
+  float:left:}
 
 .card-img-bottom {
   width: 100%;
@@ -8301,6 +8304,8 @@ a[data-toggle="collapse"] {
   -o-transition: all 0.3s;
   transition: all 0.3s; 
   background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .btn.btn-primary {
@@ -8352,7 +8357,7 @@ a[data-toggle="collapse"] {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 /* Change the color of links on hover */
@@ -8370,11 +8375,11 @@ a[data-toggle="collapse"] {
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
   float: right;
-  padding: 6px;
+  padding: 2px;
   border: none;
-  margin-top: 8px;
+  margin-top: 4px;
   margin-right: 16px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
@@ -8390,4 +8395,32 @@ a[data-toggle="collapse"] {
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  padding: 7px;
+  font-size: 10px;
+  text-align:center;
+}
+
+.buttonMy{
+border-radius:20px;
+color:black;}
+
+.cardText{
+	color:black;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.cardImage{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	border-radius:15px;
+	margin-top:5px;
 }
