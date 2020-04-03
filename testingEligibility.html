@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-  		<title>Contact Detection</title>
+  		<title>Testing Eligibility</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -48,11 +48,69 @@
 
 			<!-- Page Content  -->
 			<div id="content" class="p-4 p-md-5 pt-5">
-				<h3 class="mb-4" style="color:#6E7AFA;font-weight:bold">COVID-19 Contacts</h3>
-				<p style="font-weight:bold;color:black">Here's a list of people who have tested positive for COVID-19. Please select the people who have been in contact with you:</p>
-				<div class="topnav">
-  <input type="text" placeholder="Search by State, Region or Pincode">
-</div>
+				<h3 class="mb-4" style="color:#6E7AFA;font-weight:bold">Testing Eligibility</h3>
+				<p style="font-weight:bold;color:black">Submit the form below to check if you are eligible for COVID-19 testing: </p>
+				<form id = "testingEligibilityForm">
+					<p>Personal Info:</p>
+					
+					<input type="text" id="fname" name="fname" class="formFields"  placeholder="First Name"><br>
+					
+					<input type="text" id="lname" name="lname" class="formFields"  placeholder="Last Name"><br>
+					
+					<input type="number" id="Age" name="lname" class="formFields"  placeholder="Age" style="width: 85px;"> 
+					
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+
+					<select id="cars" name="cars">
+						<option value="volvo">Volvo</option>
+						<option value="saab">Saab</option>
+						<option value="fiat">Fiat</option>
+						<option value="audi">Audi</option>
+					</select>
+					<br>
+					<input type="email" id="emailid" name="emailid" class="formFields"  placeholder="Email"><br>
+					<input type="text" id="address" name="address" class="formFields"  placeholder="Address"><br>
+					<input type="text" id="city" name="city" class="formFields"  placeholder="City"><br>
+					<input type="text" id="region" name="region" class="formFields"  placeholder="Region"><br>
+					<input type="text" id="state" name="state" class="formFields"  placeholder="State"><br>
+					<input type="number" id="pincode" name="pincode" class="formFields"  placeholder="Pincode"><br>
+					
+					<input type="submit" value="Submit">	
+				</form>
+				<br>
+			
+				<form id = "testingEligibilityForm">
+					<p>Symptoms:</p>
+	
+					<input type="number" id="temp" name="temp" class="formFields" style="width: 180px" placeholder="Temperature in &#8457"><br>
+				
+					
+					<label class="container">Fever
+						<input type="checkbox" checked="checked">
+						<span class="checkmark"></span>
+					</label>
+					<label class="container">Running Nose
+						<input type="checkbox">
+						<span class="checkmark"></span>
+					</label>
+					<label class="container">Wet Cough
+						<input type="checkbox">
+						<span class="checkmark"></span>
+					</label>
+					<label class="container">Dry Cough
+						<input type="checkbox">
+						<span class="checkmark"></span>
+					</label>
+					<label class="container">Difficulty Breathing
+						<input type="checkbox">
+						<span class="checkmark"></span>
+					</label>
+
+					<input type="submit" value="Submit">	
+				</form>
 			</div>
 		</div>
 
