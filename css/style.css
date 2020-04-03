@@ -3797,7 +3797,7 @@ input[type="button"].btn-block {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1.25rem;
+  padding: 0.9rem;
 float:right;  }
 
 .card-title {
@@ -3859,7 +3859,9 @@ float:right;  }
   width: 30%;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px); 
-  float:left:}
+  float:left;
+  margin: 13px;
+}
 
 .card-img-bottom {
   width: 100%;
