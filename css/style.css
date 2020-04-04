@@ -6479,8 +6479,8 @@ button.bg-dark:focus {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
 
 .shadow {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
+  -webkit-box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15) !important; }
 
 .shadow-lg {
   -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
@@ -8505,13 +8505,22 @@ color:black;}
 	color:black;
 	font-size:12px;
 	font-weight:bold;
+	text-align:center;
+	margin-top:0px;
 }
 
 .cardImage{
 	display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 78%;
 	border-radius:15px;
-	margin-top:5px;
+	margin-top:6px;
+}
+
+div.newButton {
+  bottom: 0;
+  padding: 7px;
+  font-size: 10px;
+  text-align:center;
 }
