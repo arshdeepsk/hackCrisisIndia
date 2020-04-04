@@ -8540,3 +8540,38 @@ div.newButton {
   font-size: 10px;
   text-align:center;
 }
+
+.vHeading1{
+	color:#6E7AFA;
+	text-align:center;
+}
+
+.vPara1{
+	font-weight:bold;
+	color:black;
+}
+
+.vCard1{
+	width: 18rem;
+}
+
+.vImage1{
+	float:left;
+}
+
+.vPara2{
+	font-size:10px;
+}
+
+.vDiv1{
+	float:right;
+}
+
+.Div2{
+	align:center;
+}
+
+.vCard2{
+	width: 16rem; 
+	margin: 0 auto;
+}
