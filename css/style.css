@@ -8172,7 +8172,9 @@ h1, h2, h3, h4, h5,
   line-height: 1.5;
   font-weight: 400;
   font-family: "Poppins", Arial, sans-serif;
-  color: #000; }
+  color: #6E7AFA; 
+  text-align: center;
+}
 
 .ftco-section {
   padding: 7em 0; }
@@ -8392,6 +8394,20 @@ a[data-toggle="collapse"] {
   width: 227px;
   margin: 9px;
   padding-left: 11px;
+}
+
+.formFieldsA {
+  border-radius: 20px;
+  margin: 9px;
+  padding-left: 11px;
+  width: 85px;
+}
+
+.formFieldsA1 {
+  border-radius: 20px;
+  margin: 9px;
+  padding-left: 11px;
+  width: 180px;
 }
 
 #testingEligibilityForm {
