@@ -3863,6 +3863,7 @@ float:right;  }
   margin: 13px;
 }
 
+
 .card-img-bottom {
   width: 100%;
   border-bottom-right-radius: calc(0.25rem - 1px);
@@ -8500,3 +8501,17 @@ div.sticky {
 border-radius:20px;
 color:black;}
 
+.cardText{
+	color:black;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.cardImage{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	border-radius:15px;
+	margin-top:5px;
+}
