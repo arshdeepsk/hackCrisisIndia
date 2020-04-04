@@ -8575,3 +8575,21 @@ div.newButton {
 	width: 16rem; 
 	margin: 0 auto;
 }
+
+.accountImage{
+	height:70px;
+	float:left;
+	vertical-align:middle;
+}
+
+.vText{
+	font-size:15px;
+	color:black;
+	float:right;
+	font-weight:bold;
+	vertical-align:middle;
+}
+
+.vList{
+	clear:both;
+}
