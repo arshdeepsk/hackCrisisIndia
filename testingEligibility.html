@@ -39,16 +39,13 @@
 						</li>
 					</ul>
 					<div class="footer">
-						<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
-								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 					</div>
 				</div>
 			</nav>
 
 			<!-- Page Content  -->
 			<div id="content" class="p-4 p-md-5 pt-5">
-				<h3 class="mb-4" style="color:#6E7AFA;font-weight:bold">Testing Eligibility</h3>
+				<h3 class="mb-4" style="color:#6E7AFA">Testing Eligibility</h3>
 				<p style="font-weight:bold;color:black">Submit the form below to check if you are eligible for COVID-19 testing: </p>
 				<form id = "testingEligibilityForm">
 					<p>Personal Info:</p>
@@ -77,8 +74,10 @@
 					<input type="text" id="region" name="region" class="formFields"  placeholder="Region"><br>
 					<input type="text" id="state" name="state" class="formFields"  placeholder="State"><br>
 					<input type="number" id="pincode" name="pincode" class="formFields"  placeholder="Pincode"><br>
-					
-					<input type="submit" value="Submit">	
+					<label class="container">Have you travelled abroad recently?
+						<input type="checkbox">
+						<span class="checkmark"></span>
+					</label>
 				</form>
 				<br>
 			
@@ -108,9 +107,10 @@
 						<input type="checkbox">
 						<span class="checkmark"></span>
 					</label>
+					
 
-					<input type="submit" value="Submit">	
 				</form>
+				<div class="newButton" style="align:center"><button type="button" class="btn btn-light buttonMy">Submit</button></div>
 			</div>
 		</div>
 

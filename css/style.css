@@ -8515,3 +8515,10 @@ color:black;}
 	border-radius:15px;
 	margin-top:5px;
 }
+
+div.newButton {
+  bottom: 0;
+  padding: 7px;
+  font-size: 10px;
+  text-align:center;
+}
